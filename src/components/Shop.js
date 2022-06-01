@@ -42,7 +42,7 @@ const Shop = () => {
   const RemoveFromBasket = (itemID) => {
     const newOrder = order.filter(item => item.id !== itemID);
     setOrder(newOrder);
-    toast.error("Buyurtma savatchadan o'chirildi")
+    toast.error("Buyurtma savatchadan o'chirildi!!!")
   }
   
   const handleBashketShow = () => {
